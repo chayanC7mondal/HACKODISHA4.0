@@ -1201,3 +1201,26 @@ address.footer-contact-link { max-width: 30ch; }
   .footer-brand { grid-column: auto; }
 
 }
+
+.chat-button {
+  position: fixed; /* Makes the button fixed to the viewport */
+  bottom: 20px; /* Position from the bottom */
+  right: 20px; /* Position from the right */
+  z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.chat-button a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff; /* Change to your desired color */
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.chat-button a:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
